@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #box1{
+            height: 200px;
+            width: 500px;
+            border: 1px solid black;
+            background-image: url("fox.jpg");
+            background-size: cover;
+            /* puri image ko fit karane ke liey bg me->use bg size */
+        }
+        #box2{
+            height: 200px;
+            width: 500px;
+            border: 1px solid black;
+            background-image: url("fox.jpg");
+            background-size: contain;
+        }
+
+        #box3{
+            height: 200px;
+            width: 500px;
+            border: 1px solid black;
+            background-image: url("fox.jpg");
+            background-size: auto;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p id="box1">box-1</p>
+        <p id="box2">box-2</p>
+        <p id="box3">box3</p>
+    </div>
+</body>
+</html>

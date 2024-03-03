@@ -1,0 +1,43 @@
+<!-- inline display :- ek hi line me, eg: anchor tag-->
+<!-- Block display :- in new line content comes, eg:p,h1,h2,h3,... -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        li{
+            display: inline;
+            /* li alg alag line me print karta hai list ko, lekin display inline se wo ek hi line me aagae i.e inline */
+        }
+
+        span{
+            display: block;
+        }
+
+        h1.hidden{
+            display:none;
+        }
+
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="#" target="_blank">html</a></li>
+        <li><a href="#" target="_blank">css</a></li>
+        <li><a href="#" target="_blank">jsc</a></li>
+    </ul>
+
+    <!-- span is like div but span is an inline element whereas div is an block element -->
+    <span>A display property with</span>    <span>a value of block results in</span> <span> a line break between each span elements.</span>
+
+    <!-- hide elements: display:none;  -->
+    <h1> this is visible heading</h1>
+    <h1 class="hidden">this is a hidden heading</h1>
+
+    <!-- inline = jitni chahie utni width lete hai, bloc: puri width lete hai, inline-block: similar to inline but we can assign margin and padding, none: to remove element from document flow -->
+    
+</body>
+</html>

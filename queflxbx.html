@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .navbar{
+            background-color: orange;
+            display: flex;
+            justify-content: space-evenly;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        li{
+            /* to remove dot */
+            list-style-type: none;
+            background-color: lightcoral;
+        }
+
+
+        .outer{
+            height: 400px;
+            width: 400px;
+            background-color: cornflowerblue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .inner{
+            height: 100px;
+            width: 100px;
+            background-color: darkorchid;
+        }
+    </style>
+</head>
+<body>
+    <ul class="navbar">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About us</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">Help</a></li>
+    </ul>
+
+    <!-- to center 1 div inside another div -->
+    <div class="outer">
+        <div class="inner">
+        </div>
+    </div>
+
+</body>
+</html>

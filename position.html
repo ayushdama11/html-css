@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div.static{
+            position: static;
+            border: 1px solid black;
+        }
+
+        div.relative{
+            position: relative;
+            left: 40px;
+            border: 1px solid red;
+        }
+
+        div.fixed{
+            position: fixed;
+            bottom: 0;
+            right: 0;
+            width: 300px;
+            border: 1px solid blue;
+        }
+
+        div.absolute{
+            position: absolute;
+            top: 80px;
+            right: 0;
+            width: 200px;
+            height:100px;
+            border: 1px solid brown;
+        }
+
+        div.sticky{
+            position: -webkit-sticky;
+            position: sticky;
+            top: 0;
+            background-color: aqua;
+            border: 2px solid green;
+            
+        }
+    </style>
+</head>
+<body>
+    <!-- static(by default), relative, absolute, fixed, stickey -->
+    <div class="static">
+        this div element has position: static
+    </div><br>
+
+    <!-- relative me ham left right bottom left karke relatively set kar skte hai -->
+    <div class="relative">
+        this div element has position: relative
+    </div><br>
+
+    <!-- fixed jo hota hai wo element ki psoition fixed rkhta hai even when page is scrolled -->
+    <div class="fixed">
+        this div element has position: fixed
+    </div><br>
+
+    <!-- An element with position: absolute; is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed) -->
+    <div class="absolute">
+        this div element has position: absolute
+    </div><br>
+
+    <div class="sticky">
+        this div element has position: sticky
+    </div><br>
+
+</body>
+</html>

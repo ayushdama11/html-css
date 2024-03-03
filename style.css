@@ -1,0 +1,97 @@
+h1{
+    color:red;
+}
+
+p{
+    color: rgb(240, 5, 240);
+}
+
+button {
+    color:brown;
+    background-color:aqua;
+}
+
+body{
+    background-color: khaki;
+}
+
+/* for finding colour just search color-picker in google = rgb,hex*/
+/* hex= ff 00 00 :- red colour :- ff matlab 255 in rgb */
+/* coolors - color pallete */
+/* *{}=universal pure page ke liey, element selector= element{}, id selector=#myId{}, Class selector=.myClass{} */
+
+#heading1{
+    color: darkgoldenrod;
+}
+
+#heading2{
+    color: magenta;
+}
+
+.c1{
+    color:dimgray;
+}
+
+#box{
+    background-color: #0000ff;
+    color: white;
+}
+
+/* Text Aligns */
+p{
+    text-align: center;
+    text-decoration: brown underline;
+    /* text-decoration: blue wavy underline; */
+    /* dotted, wavy, dashed */
+
+    /* text-decoration: overline; */
+    /* text-decoration: line-through; */
+    border-style: dotted;
+
+}
+/* to remove underline which comes when we use anchor tag */
+a{
+    text-decoration: none; 
+}
+
+/* font-weight */
+/* font weight: normal/bold/bolder/lighter = 100(light)-900(dark)*/
+#h1{
+    font-weight: normal;
+}
+
+#h2{
+    font-weight: bold;
+}
+
+#h3{
+    font-weight: bolder;
+}
+
+#h4{
+    font-weight: lighter;
+}
+
+/* w3sc - bg repeat */
+body{
+    background-image: url("paper.jpg");
+    /* background-repeat: no-repeat;  */
+    /* background-repeat: repeat-x;  */
+    /* background-position: right top; */
+    /* background-attachment: scroll; */
+    /* background-repeat: repeat-y;  */
+
+    /* background: #ffffff url("grdt.jpg") repeat-x right top; */
+
+}
+
+/* to repeat image vertically, write repeat-y whereas for repeating horizontally wer use repeat-x */
+
+/* background position is used to specify the position of the background od=f the image */
+
+/* To shorten the code, it is also possible to specify all the background properties in one single property. This is called a shorthand property. */
+
+/* css borders line number 49 */
+/* dotted, dashed, solid, double, groove, ridge, inset, outset, none, hidden */
+
+
